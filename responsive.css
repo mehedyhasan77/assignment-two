@@ -12,4 +12,22 @@
   .logo {
     flex: 1;
   }
+
+    .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero-text {
+    text-align: left; 
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+
 }
