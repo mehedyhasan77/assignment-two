@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .nav-item {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .logo {
+    flex: 1;
+  }
+}

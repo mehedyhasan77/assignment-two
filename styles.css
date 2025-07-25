@@ -25,18 +25,20 @@
    font-weight: bold;
    color: #cc3b2f;
  }
+ .navigation-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
- nav {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 15px;
- }
+/* All nav items style */
+.navigation-bar a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
 
- nav a {
-   text-decoration: none;
-   color: #333;
-   font-size: 16px;
- }
+
 
  .hero {
    display: flex;
