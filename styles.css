@@ -8,7 +8,7 @@
    padding: 0;
  }
 
- header {
+  header {
    display: flex;
    max-width: 1020px;
    margin: 0px auto;
@@ -147,7 +147,6 @@
    background-color: #a72e25;
  }
 
- .flower-lover {}
 
  .hero-text h1 {
    font-size: 28px;
@@ -156,7 +155,7 @@
  .section-title {
    font-size: 24px;
  }
- }
+ 
 
  */ * {
    margin: 0;
@@ -190,13 +189,29 @@
  }
 
  .hero-text {
+   /* display: flex; */
+   /* justify-content: space-between; */
+   align-items: center;
+   max-width: 1020px;
+   margin: 20px auto;
+   gap: 60px;
+   /* flex: 2; */
+ }
+
+  .hero-text-love {
    display: flex;
+   flex-direction: column;
    justify-content: space-between;
    align-items: center;
    max-width: 1020px;
    margin: 20px auto;
    gap: 60px;
    /* flex: 2; */
+ }
+
+ .lover-image{
+  height: 450px;
+  width: full;
  }
 
  .hero-text .image {
@@ -456,3 +471,7 @@
    text-decoration: underline;
    font-weight: bold;
  }
+
+
+
+  
